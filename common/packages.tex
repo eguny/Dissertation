@@ -116,9 +116,9 @@
 %%% Таблицы %%%
 \usepackage{longtable} % Длинные таблицы
 \usepackage{multirow,makecell}   % Улучшенное форматирование таблиц
-\usepackage{tabulary,tabularray} % Таблицы с автоматически подбирающейся
+%\usepackage{tabulary,tabularray} % Таблицы с автоматически подбирающейся
                                  % шириной столбцов
-\UseTblrLibrary{booktabs}
+%\UseTblrLibrary{booktabs}
 \ExplSyntaxOn% define \IfTokenListEmpty to use \captionof with tabularray
 \prg_generate_conditional_variant:Nnn \tl_if_empty:n { e } { TF }
 \let \IfTokenListEmpty = \tl_if_empty:eTF
